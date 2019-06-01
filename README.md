@@ -1,6 +1,6 @@
 # Test for Robust Optimization Over Time scenarios
 
-This project is devoted to provide examples about the performance of Differential Evolution algorithm (Storn and Price, 2005) on three different ROOT scenarios.
+This project is devoted to provide examples about the performance of Differential Evolution algorithm (Storn and Price, 1995) on three different ROOT scenarios.
 
 The scenarios are constructed from the presence of uncertainty in different components of the problem. They are as follows:
 
