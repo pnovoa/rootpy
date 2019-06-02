@@ -1,4 +1,4 @@
-# Test for Robust Optimization Over Time scenarios
+# Test for Robust Optimization Over Time scenarios with PYthon (rootpy)
 
 This project is devoted to provide examples about the performance of Differential Evolution algorithm (Storn and Price, 1995) on three different ROOT scenarios.
 
