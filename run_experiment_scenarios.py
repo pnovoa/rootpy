@@ -106,7 +106,7 @@ def perform_single_run(runid, runset):
                 scenario1_opt_x = scenario1_res.x
 
                 #Scenario 2
-                scenario2_res = de_optimizer(func=min_robustness, bounds=ss_bounds, args=(problem1.eval_robustness_single_knowing_past,1), maxiter=runset.num_iter, popsize=runset.pop_size, seed=runset.opt_seed)
+                scenario2_res = de_optimizer(func=min_robustness, bounds=ss_bounds, args=(frmw.eval_robustness_single_knowing_past,1), maxiter=runset.num_iter, popsize=runset.pop_size, seed=runset.opt_seed)
                 scenario2_opt_f = -1*scenario2_res.fun
                 scenario2_opt_x = scenario2_res.x
 
